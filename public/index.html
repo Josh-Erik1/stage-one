@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Task Stage 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="top-section">
+        <div class="top-wrapper">
+          <div class="username">
+            <h2 data-testid="slackUserName">JoshErik</h2>
+          </div>
+          <div class="image-wrapper">
+            <img
+              class="profile-image"
+              data-testid="slackDisplayImage"
+              src="./public/assets/profile-image.png"
+              alt="JoshErik"
+            />
+          </div>
+        </div>
+        <div class="date-container">
+          <div class="details-wrapper">
+            <h3>Current Day</h3>
+            <p data-testid="currentDayOfTheWeek">Today</p>
+          </div>
+          <div class="details-wrapper">
+            <h3>Current Time</h3>
+            <p data-testid="currentUTCTime"></p>
+          </div>
+          <div class="details-wrapper">
+            <h3>Track</h3>
+            <p data-testid="myTrack">Frontend</p>
+          </div>
+          <div class="details-wrapper">
+            <h3>Github URL</h3>
+            <a
+              data-testid="githubURL"
+              href="https://github.com/Josh-Erik1/HNG-stage-one"
+              >Github Link</a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
